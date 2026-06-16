@@ -19,3 +19,8 @@ class AlienInvasion:
                 if event.type = pygame.QUIT
                     sys.exit()
             #deixa a tela desenhada mais recente visivel
+            pygame.display.flip()
+                if_name_==_maiu_:
+                    #cria uma instancia do jogo
+                    2i=AlienInvasion()
+                    2i.run_game()
