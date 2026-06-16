@@ -14,4 +14,8 @@ class AlienInvasion:
     def run_game(self):
         """inicia o loop principal do jogo"""
         while True:
-            #observa eventos de teclado e mouse
+            #captura comandos do teclado
+            for event in pygame.event.get():
+                if event.type = pygame.QUIT
+                    sys.exit()
+            #deixa a tela desenhada mais recente visivel
